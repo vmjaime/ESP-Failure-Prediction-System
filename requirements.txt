@@ -1,0 +1,14 @@
+# Data Science
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+jupyter
+
+# Backend
+fastapi
+uvicorn[standard]
+
+# Utilidades
+python-dotenv
