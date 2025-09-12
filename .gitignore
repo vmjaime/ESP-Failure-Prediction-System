@@ -1,0 +1,27 @@
+# Entorno virtual
+esp_env/
+.venv/
+venv/
+
+# Archivos temporales de Python
+*.pyc
+__pycache__/
+*.pkl
+*.pickle
+
+# Archivos de Jupyter
+.ipynb_checkpoints/
+notebooks/data/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs y temporales
+*.log
+*.tmp
+
+# Archivos de configuración locales
+.env
+*.bak
