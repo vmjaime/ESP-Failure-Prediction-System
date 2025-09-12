@@ -1,9 +1,40 @@
-# 🛢️ ESP Failure Prediction System
+<p align="center">
+  <img src="assets/banner.png" alt="ESP Failure Prediction System Banner" width="100%">
+</p>
 
-Este proyecto tiene como objetivo **analizar el comportamiento de pozos con bombas electro sumergibles (ESP)** a partir de datos históricos de sensores.  
+# ⚡ ESP Failure Prediction System
 
-Mediante **ciencia de datos aplicada a ingeniería de producción**, buscamos:  
-- 📊 Explorar el comportamiento de los pozos y sus variables críticas.  
-- 🔎 Detectar anomalías operativas (apagados manuales, inestabilidad eléctrica, gas lock, vibraciones).  
-- ⚠️ Identificar condiciones que preceden a fallas de las ESP.  
-- 🤖 Construir un sistema predictivo que apoye en la **detección temprana de fallas** y en la toma de decisiones operativas.  
+**Predicción de fallas en bombas electro sumergibles (ESP) con Machine Learning.**  
+Analiza datos de sensores (corriente, presión, vibración, frecuencia, temperatura) para **anticipar fallas**, reducir paros de producción y optimizar mantenimientos.  
+
+🚀 Proyecto en construcción con alto potencial de aplicación en la industria petrolera.  
+
+---
+
+## 🎯 Objetivo
+Implementar **mantenimiento predictivo** en lugar de correctivo, evitando:
+- Costos de intervención no programada  
+- Pérdida de producción por paros de pozo  
+- Riesgos en la integridad de los equipos  
+
+---
+
+## 📂 Estructura
+ESP-Failure-Prediction-System/
+│── data/ # Datos crudos y procesados
+│── notebooks/ # EDA, preprocesamiento y modelado
+│── src/ # Pipelines y funciones
+│── README.md
+
+
+---
+
+## 🛠️ Tecnologías
+🐍 Python | 📊 pandas, numpy | 🤖 scikit-learn | 📈 matplotlib  
+
+---
+
+## 📌 Estado
+✅ EDA finalizado (clasificación de pozos y datasets filtrados)  
+⚙️ Preprocesamiento en curso (imputación y features)  
+🚧 Próximo: modelado predictivo y despliegue
