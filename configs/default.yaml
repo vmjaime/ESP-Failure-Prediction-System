@@ -1,0 +1,66 @@
+# ============================
+# Configuración de Resample & Imputación
+# ============================
+
+# Re-muestreo
+RESAMPLE: "10min"          # intervalo de muestreo uniforme
+
+# Límites de imputación
+IMPUTE_LIMIT_STEPS: 3      # máximo de pasos consecutivos a imputar (3*10min = 30min)
+MAX_GAP_STEPS: 6           # define gap largo (no imputar si gap > 6 pasos = 60min)
+
+# Variables núcleo (obligatorias para calidad/análisis)
+CORE_VARS:
+  - CURRENT
+  - PRESS_DESC
+  - TEMP_MOT
+
+# Variables opcionales (se usan si están; no bloquean)
+OPTIONAL_VARS:
+  - FREQUENCY
+  - OUT_VOLT
+  - TEMP_INT
+  - VIBRATION
+
+# Universo de variables numéricas (CORE + OPCIONALES)
+NUMERIC_VARS:
+  - CURRENT
+  - PRESS_DESC
+  - TEMP_MOT
+  - FREQUENCY
+  - OUT_VOLT
+  - TEMP_INT
+  - VIBRATION
+
+# Sensores continuos → interpolación temporal (solo en operación, gaps cortos)
+INTERP_VARS:
+  - CURRENT
+  - PRESS_DESC
+  - TEMP_INT
+  - TEMP_MOT
+  - VIBRATION
+
+# Set-point → forward-fill limitado (solo en operación, gaps cortos)
+FFILL_VARS:
+  - FREQUENCY
+
+# Pozo(s) a excluir por telemetría incompleta (ej.: sin PRESS_DESC)
+EXCLUDE_WELLS:
+  - DEEPWATER-L4I1KA
+
+# Archivo(s) de entrada/salida
+INPUT_CSV: "../data/processed/df_filtrado_con_corriente.csv"
+OUTPUT_CSV: "../data/processed/df_rs.csv"
+AUDIT_CSV:  "../data/processed/auditoria_resample_impute.csv"
+
+# Gráficas de validación
+FIG_DIR: "../notebooks/data/figures/resample_impute"
+
+# Lectura
+READ_CSV_KWARGS:
+  parse_dates:
+    - DATE
+  low_memory: false
+  dtype:
+    WellFailure: "string"
+
