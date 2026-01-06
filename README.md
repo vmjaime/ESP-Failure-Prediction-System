@@ -1,4 +1,10 @@
+## License
 
+This project is proprietary. All rights reserved.
+
+<p align="center">
+  <img src="assets/banner.png" alt="ESP Failure Prediction System Banner" width="100%">
+</p>
 # ESP Project - Pipeline Modular para Predicción de Eventos en Pozos ESP
 
 ## Resumen
@@ -231,13 +237,7 @@ Uses Interquartile Range (IQR) method:
 4. Update documentation for API changes
 5. Validate against existing test cases
 
-## License
 
-This project is proprietary. All rights reserved.
-
-<p align="center">
-  <img src="assets/banner.png" alt="ESP Failure Prediction System Banner" width="100%">
-</p>
 
 # ⚡ ESP Failure Prediction System
 
