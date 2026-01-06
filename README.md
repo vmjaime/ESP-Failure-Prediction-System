@@ -26,7 +26,6 @@ ESP-Failure-Prediction-System/
 │── src/ # Pipelines y funciones
 │── README.md
 
-
 ---
 
 ## 🛠️ Tecnologías
@@ -37,4 +36,6 @@ ESP-Failure-Prediction-System/
 ## 📌 Estado
 ✅ EDA finalizado (clasificación de pozos y datasets filtrados)  
 ⚙️ Preprocesamiento en curso (imputación y features)  
-🚧 Próximo: modelado predictivo y despliegue
+🛠️ Próximo: modelado predictivo y despliegue
+
+This project is proprietary. All rights reserved.
