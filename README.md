@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # ESP Project - Pipeline Modular para Predicción de Eventos en Pozos ESP
 
 ## Resumen
@@ -234,7 +234,7 @@ Uses Interquartile Range (IQR) method:
 ## License
 
 This project is proprietary. All rights reserved.
-=======
+
 <p align="center">
   <img src="assets/banner.png" alt="ESP Failure Prediction System Banner" width="100%">
 </p>
@@ -263,7 +263,6 @@ ESP-Failure-Prediction-System/
 │── src/ # Pipelines y funciones
 │── README.md
 
-
 ---
 
 ## 🛠️ Tecnologías
@@ -274,5 +273,11 @@ ESP-Failure-Prediction-System/
 ## 📌 Estado
 ✅ EDA finalizado (clasificación de pozos y datasets filtrados)  
 ⚙️ Preprocesamiento en curso (imputación y features)  
+
 🚧 Próximo: modelado predictivo y despliegue
 >>>>>>> 71ec66526f81494b6c7e6b3e0b1598759e1143d0
+
+🛠️ Próximo: modelado predictivo y despliegue
+
+This project is proprietary. All rights reserved.
+>>>>>>> 5c7ba0eb49e6b4feecae6d8927cad69f917af802
