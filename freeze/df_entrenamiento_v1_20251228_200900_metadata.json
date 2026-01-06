@@ -1,0 +1,29 @@
+{
+    "archivo_csv": "df_entrenamiento_v1_20251228_200900.csv",
+    "fecha_freeze": "20251228_200900",
+    "shape": [
+        16161,
+        18
+    ],
+    "variables": [
+        "date",
+        "prueba_de_produccion_petróleo_a_24_horas_bbld",
+        "prueba_de_producción_gas_a_24_horas_mcfd",
+        "bsw_pct",
+        "gravedad_api_del_petroleo",
+        "salinidad_ppm_pu",
+        "presion_de_intake_psi",
+        "frecuencia_bomba_hz",
+        "amperaje_bomba_amp",
+        "presion_de_tubing_psi",
+        "presion_de_casing_psi",
+        "temperatura_de_la_bomba_deg_f",
+        "etapas_de_la_bomba",
+        "delta_1",
+        "slope_7",
+        "slope_14",
+        "ratio14",
+        "pred_evento"
+    ],
+    "descripcion": "Dataset final para entrenamiento de predicción de eventos ESP. Incluye todas las filas excepto NaN en la variable objetivo. Variables seleccionadas por relevancia física y estadística."
+}
