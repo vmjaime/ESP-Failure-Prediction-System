@@ -1,0 +1,17 @@
+# Jupyter/venv
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+esp_env/
+.env
+.venv
+
+# Datos grandes temporales
+data/raw/*
+!data/raw/README.md
+
+# Salidas voluminosas opcionales
+# !descomenta si NO quieres versionar figuras o processed
+# data/processed/*
+# notebooks/data/figures/*

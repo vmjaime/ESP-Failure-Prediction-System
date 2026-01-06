@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ==== CORE PYTHON ENVIRONMENT ====
 python-dotenv==1.0.1
 ipykernel==6.29.5
@@ -46,3 +47,19 @@ statsmodels==0.14.3
 # ==== EXPORT / REPORTING ====
 reportlab==4.2.2
 openpyxl==3.1.5
+=======
+# Data Science
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+jupyter
+
+# Backend
+fastapi
+uvicorn[standard]
+
+# Utilidades
+python-dotenv
+>>>>>>> 71ec66526f81494b6c7e6b3e0b1598759e1143d0
